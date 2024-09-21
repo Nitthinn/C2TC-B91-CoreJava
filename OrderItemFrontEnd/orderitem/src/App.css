@@ -1,0 +1,169 @@
+/* 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    margin: 0;
+} */
+
+/* src/App.css */
+
+/* src/App.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font for a clean look */
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f; /* Dark background for a sleek look */
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+.container {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffffff; /* White for high contrast */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff6f61; /* Coral for a bright, contrasting button */
+    color: #fff; 
+    border: none;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #e55b50; /* Slightly darker on hover */
+    transform: translateY(-2px); 
+}
+
+button:active {
+    background-color: #cc4a40; /* Darker shade on click */
+    transform: translateY(0);
+}
+
+input {
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #444; /* Darker border for inputs */
+    background-color: #333; /* Dark input background */
+    color: #e0e0e0; /* Light text color for inputs */
+    border-radius: 6px;
+    width: calc(100% - 30px);
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #ff6f61; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.5); /* Coral shadow on focus */
+    outline: none;
+}
+
+div {
+    background-color: #2c2c2c; /* Darker background for cards */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+}
+
+div:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid #3a3a3a; /* Subtle separator for list items */
+    transition: background-color 0.2s;
+}
+
+li:hover {
+    background-color: #3d3d3d; /* Slight highlight on hover */
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.8rem;
+    color: #ffffff; /* Consistent with the darker theme */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    button, input {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,166 @@
+
+/* .navbar {
+    background-color: #4491e3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #f0f0f0;
+}
+
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #007bff;
+        padding: 20px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-link {
+        margin-bottom: 10px;
+    }
+
+    .nav-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+    }
+}  */
+
+
+/* Navbar.css */
+
+.navbar {
+    background-color: #1a1a2e; /* Dark blue background */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.nav-logo {
+    color: #e94560; /* Highlighted logo text */
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-logo:hover {
+    color: #fff; /* Change color on hover */
+}
+
+.nav-toggle {
+    display: none; /* Hidden by default */
+    background: none;
+    border: none;
+    color: #e94560; /* Matches the logo color */
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-toggle:hover {
+    color: #fff; /* Hover effect */
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px; /* Spacing between menu items */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.nav-link {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #e94560; /* Matches the logo color on hover */
+}
+
+@media screen and (max-width: 768px) {
+    .nav-toggle {
+        display: block; /* Show toggle button on smaller screens */
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 60px; /* Adjust based on your navbar height */
+        left: 0;
+        right: 0;
+        background-color: #1a1a2e;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 0;
+        display: none;
+        border-top: 1px solid #e94560; /* Border to separate from navbar */
+    }
+
+    .nav-menu.active {
+        display: flex; /* Show menu when active */
+    }
+}

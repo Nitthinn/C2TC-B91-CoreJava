@@ -1,0 +1,173 @@
+/* 
+.list-item {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.item-actions button {
+    margin-right: 10px;
+}
+
+.form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .form-container, .item-card {
+        padding: 15px;
+    }
+
+    input, button {
+        width: 100%;
+    }
+} */
+/* src/ListItem.css */
+
+/* src/ListItem.css */
+
+.list-item {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #eae7dc; /* Soft beige background for a warm, inviting look */
+}
+
+.item-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px; /* Softer rounded corners */
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1); /* Enhanced shadow for better depth */
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.item-card:hover {
+    transform: translateY(-4px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.item-actions button {
+    margin-right: 10px;
+    padding: 10px 15px; /* Larger padding for a more prominent button */
+    font-size: 1rem; /* Standard font size */
+    border-radius: 6px; /* Rounded buttons */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.form-container {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 14px; /* Increased padding for better touch targets */
+    margin: 10px 0; /* More spacing for cleaner layout */
+    border: 1px solid #ccc; /* Neutral border */
+    border-radius: 6px; /* Softer rounded edges */
+    width: calc(100% - 28px); /* Adjusted width */
+    font-size: 1rem; /* Standard font size */
+    transition: border-color 0.3s; /* Smooth transition on focus */
+}
+
+input:focus {
+    border-color: #ff8c42; /* Bright orange highlight on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #ff8c42; /* Bright orange for buttons */
+    color: white;
+    border: none;
+    padding: 14px 20px; /* Substantial padding for a bold button */
+    margin: 10px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #e07b39; /* Darker orange on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+button:active {
+    background-color: #cc6b33; /* Even darker orange when active */
+    transform: translateY(0);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ff8c42; /* Bright orange for back link */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.back-link:hover {
+    color: #e07b39; /* Darker orange on hover */
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .form-container, .item-card {
+        padding: 18px;
+    }
+
+    input, button {
+        width: 100%;
+        margin: 12px 0; /* Adjusted margin for better spacing on mobile */
+    }
+}
